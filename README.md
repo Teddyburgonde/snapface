@@ -1,6 +1,6 @@
 # Ma premiere application Angular ! 
 
-![png_angular](https://github.com/user-attachments/assets/0814acd8-61e2-460b-8d65-9ff365c88146)
+![angular_logo](https://github.com/user-attachments/assets/a98e6b4a-40f6-4259-aa81-8b63af604805)
 
 Notions vues :
 - Creer une application Angular ✅
