@@ -17,3 +17,18 @@ ng serve
 ```c
 ng generate component nameofcomponent
 ```
+
+- Utiliser une interface pour initialiser des valeurs ✅
+```c
+export class FaceSnapComponent implements OnInit {
+  title!: string;
+  description!: string;
+  createdAt!: Date;
+  snaps!: number;
+ngOnInit() {
+  this.title = 'Archibald';
+  this.description = 'Mon meilleur ami depuis toujours !';
+  this.createdAt = new Date();
+  this.snaps = 5;
+}
+```
