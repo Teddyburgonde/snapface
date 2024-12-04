@@ -32,3 +32,6 @@ ngOnInit() {
   this.snaps = 5;
 }
 ```
+- Utiliser une string interpolation
+
+<h2>{{ title }}</h2>

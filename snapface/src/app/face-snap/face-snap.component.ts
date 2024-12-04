@@ -16,6 +16,6 @@ export class FaceSnapComponent implements OnInit{
     this.title = 'Archibald';
     this.description = 'Mon meilleur ami depuis toujours !'
     this.createdAt = new Date();
-    this.snaps = 0;
+    this.snaps = 5;
   }
 }
