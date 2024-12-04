@@ -25,6 +25,7 @@ export class FaceSnapComponent implements OnInit {
   description!: string;
   createdAt!: Date;
   snaps!: number;
+  imageUrl!: string;
 ngOnInit() {
   this.title = 'Archibald';
   this.description = 'Mon meilleur ami depuis toujours !';
@@ -32,6 +33,13 @@ ngOnInit() {
   this.snaps = 5;
 }
 ```
-- Utiliser une string interpolation
+- Utiliser une string interpolation ✅
 
 <h2>{{ title }}</h2>
+
+- Inserer une image ✅
+
+this.imageUrl = 'https://www.akc.org/wp-content/uploads/2017/11/Chow-Chow-On-White-01.jpg';
+
+face-snap.component.html
+<img [src]="imageUrl" [alt]="title">
