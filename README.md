@@ -43,3 +43,57 @@ this.imageUrl = 'https://www.akc.org/wp-content/uploads/2017/11/Chow-Chow-On-Whi
 
 face-snap.component.html
 <img [src]="imageUrl" [alt]="title">
+
+
+- Créer une methode ❌
+
+```ts
+onAddSnap(): void {
+    console.log("Méthode appelée !");
+  }
+```
+
+```c
+console.log 
+imprime un message dans la console (faite inspecter sur votre page web et cliquer sur le bouton console)
+c'est equivalent de printf 
+```
+
+- Event-binding (Liaison par événements) ❌
+  - Bouton qui s'incrémente ✅
+
+  dans face-snap.component.ts
+  
+  ```ts
+  onAddSnap(): void {
+    this.snaps++; // Incrémentation de la variable
+  }
+  ```
+  Le nom de méthode qui commence par on signale que cette méthode répond à un événement.
+
+  dans face-snap.component.html
+  ```html
+  <p>
+		<button (click)="onAddSnap()">snaps</button>
+		🤌 {{ snaps }}
+	</p>
+  ```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+❌
