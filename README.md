@@ -79,7 +79,26 @@ c'est equivalent de printf
 	</p>
   ```
 
+- Créer une class et initialiser les valeurs avec un constructor ✅	 
 
+
+```ts
+export class FaceSnap  {
+	constructor(public title: string,
+				public description:string,
+				public createdAt: Date,
+				public snaps: number,
+				public imageUrl: string)
+	{}
+}
+```
+
+- Comprendre import ✅
+
+import { Component, OnInit } from '@angular/core';
+
+@angular/core c'est une librairie qui contient que des outils d'angular.
+Donc la on import la librairie comme cela on peut utiliser Component et OnInit. 
 
 
 
